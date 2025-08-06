@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_vendor_bill_tree_custom" model="ir.ui.view">
+        <field name="name">account.move.vendor.bill.tree</field>
+        <field name="model">account.move</field>
+        <field name="arch" type="xml">
+            <tree string="Vendor Bills" create="false">
+                <field name="name"/>
+                <field name="invoice_date"/>
+                <field name="partner_id"/>
+                <field name="amount_total"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
