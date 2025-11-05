@@ -1,6 +1,6 @@
 {
     'name': 'Create Vendor Bill from Customer Invoice',
-    'version': '18.0',
+    'version': '19.0.1',
     'summary': 'Generate Vendor Bill directly from Customer Invoice',
     'description': """
     This module allows users to generate a vendor bill directly from a posted customer invoice:
@@ -17,7 +17,7 @@
     'support': 'support@namahsoftech.com',
     'price': 24.99,
     'currency': 'USD',
-    'contributors': ['Shivani Solanki'],
+    'contributors': ['Rutik Patil'],
     'license': 'AGPL-3',
     'depends': ['account'],
     'data': [
